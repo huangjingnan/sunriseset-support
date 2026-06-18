@@ -68,8 +68,7 @@
       saved = localStorage.getItem(STORAGE_LANG);
     } catch (_) {}
     if (saved && SUPPORTED_LANGS.indexOf(saved) >= 0) return saved;
-    const navLang = (navigator.language || "zh").toLowerCase();
-    return navLang.startsWith("zh") ? "zh" : "en";
+    return "en";
   }
 
   function syncLangToggle(lang) {
