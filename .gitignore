@@ -1,0 +1,14 @@
+# Node tooling (used only for local smoke testing, not shipped)
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Build / dependency directories
+dist/
+build/

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://huangjingnan.github.io/sunriseset-support/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN"
+                href="https://huangjingnan.github.io/sunriseset-support/?lang=zh" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://huangjingnan.github.io/sunriseset-support/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default"
+                href="https://huangjingnan.github.io/sunriseset-support/?lang=zh" />
+  </url>
+  <url>
+    <loc>https://huangjingnan.github.io/sunriseset-support/privacy.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://huangjingnan.github.io/sunriseset-support/terms.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>

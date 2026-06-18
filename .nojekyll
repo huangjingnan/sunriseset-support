@@ -1,0 +1,2 @@
+# Prevent GitHub Pages from running this directory through Jekyll.
+# All files are served as-is so URL paths and assets work directly.

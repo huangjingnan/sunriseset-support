@@ -1,0 +1,122 @@
+/* SunRiseSet Support Site - Legal pages (privacy / terms) styles.
+   Reuses most of style.css and adds a document layout on top. */
+
+.legal-main {
+  padding-block: 48px 80px;
+}
+
+.legal-container {
+  max-width: 880px;
+}
+
+.legal-tabs {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  margin-bottom: 28px;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.legal-tab {
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: var(--text-soft);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.legal-tab:hover {
+  color: var(--text);
+  background: var(--bg-alt);
+}
+
+.legal-tab.is-active {
+  background: var(--gradient-sun);
+  color: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+.legal-doc {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: clamp(24px, 5vw, 48px);
+  box-shadow: var(--shadow-sm);
+}
+
+.legal-head {
+  text-align: center;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.legal-head h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-top: 14px;
+}
+
+.legal-meta {
+  margin-top: 12px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.legal-block {
+  margin-bottom: 32px;
+}
+
+.legal-block:last-child {
+  margin-bottom: 0;
+}
+
+.legal-block h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.legal-block p,
+.legal-block li {
+  color: var(--text-soft);
+  line-height: 1.75;
+}
+
+.legal-block ul {
+  padding-inline-start: 22px;
+  list-style: disc;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legal-block strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.legal-block a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.legal-block a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .legal-tabs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .legal-tab {
+    flex: 1;
+    text-align: center;
+  }
+}

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh" data-page="home">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#fff8ed" media="(prefers-color-scheme: light)" />
+  <title>SunRiseSet · 日出日落 - 技术支持</title>
+  <meta name="description" data-i18n-attr="description"
+    content="SunRiseSet 是一款基于天文学算法的日出日落 App。支持全球地图、晨昏线、曙暮光、白天时长图表与多地点标记。" />
+  <link rel="icon" type="image/png" href="raise-icon.png" />
+  <link rel="apple-touch-icon" href="raise-icon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="alternate" hreflang="zh-CN" href="?lang=zh" />
+  <link rel="alternate" hreflang="en" href="?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="?lang=zh" />
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="SunRiseSet Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="32" height="32">
+            <defs>
+              <linearGradient id="sunGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#fbbf24" />
+                <stop offset="100%" stop-color="#f97316" />
+              </linearGradient>
+            </defs>
+            <circle cx="32" cy="32" r="12" fill="url(#sunGrad)" />
+            <g stroke="url(#sunGrad)" stroke-width="3" stroke-linecap="round">
+              <line x1="32" y1="4" x2="32" y2="12" />
+              <line x1="32" y1="52" x2="32" y2="60" />
+              <line x1="4" y1="32" x2="12" y2="32" />
+              <line x1="52" y1="32" x2="60" y2="32" />
+              <line x1="12" y1="12" x2="18" y2="18" />
+              <line x1="46" y1="46" x2="52" y2="52" />
+              <line x1="52" y1="12" x2="46" y2="18" />
+              <line x1="12" y1="52" x2="18" y2="46" />
+            </g>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>SunRiseSet</strong>
+          <span class="brand-sub" data-i18n="brand.tagline">日出日落 · 天象伴侣</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#features" data-i18n="nav.features">功能特性</a></li>
+          <li><a href="#screenshots" data-i18n="nav.screenshots">应用截图</a></li>
+          <li><a href="#accuracy" data-i18n="nav.accuracy">数据精度</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">常见问题</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-current">ZH</span>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <span class="lang-alt">EN</span>
+        </button>
+        <button class="icon-btn theme-toggle" id="themeToggle" aria-label="切换主题">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" fill="currentColor" />
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="12" y1="2" x2="12" y2="5" />
+              <line x1="12" y1="19" x2="12" y2="22" />
+              <line x1="2" y1="12" x2="5" y2="12" />
+              <line x1="19" y1="12" x2="22" y2="12" />
+              <line x1="4.2" y1="4.2" x2="6.3" y2="6.3" />
+              <line x1="17.7" y1="17.7" x2="19.8" y2="19.8" />
+              <line x1="19.8" y1="4.2" x2="17.7" y2="6.3" />
+              <line x1="6.3" y1="17.7" x2="4.2" y2="19.8" />
+            </g>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor" />
+          </svg>
+        </button>
+        <a class="btn btn-primary header-cta" href="#download"
+          data-i18n="nav.download">下载 App</a>
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-label="打开菜单" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#features" data-i18n="nav.features">功能特性</a>
+      <a href="#screenshots" data-i18n="nav.screenshots">应用截图</a>
+      <a href="#accuracy" data-i18n="nav.accuracy">数据精度</a>
+      <a href="#faq" data-i18n="nav.faq">常见问题</a>
+      <a href="#contact" data-i18n="nav.contact">联系我们</a>
+      <a class="btn btn-primary mobile-cta" href="#download"
+        data-i18n="nav.download">下载 App</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="hero.eyebrow">基于标准天文学算法 · 全球地理坐标</span>
+          <h1 data-i18n="hero.title">精确到秒的<br />日出日落伴侣</h1>
+          <p class="lead" data-i18n="hero.lead">
+            SunRiseSet 是一款专注于日出、日落与晨昏线的天象 App。
+            全球任意位置,实时显示太阳与月亮直射点、三种曙暮光线、全年日照时长曲线。
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="#download" id="download">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"
+                  fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span data-i18n="hero.ctaPrimary">立即下载</span>
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#features">
+              <span data-i18n="hero.ctaSecondary">了解更多</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+          <ul class="hero-meta" role="list">
+            <li><span class="dot dot-orange"></span><span data-i18n="hero.meta1">日出日落 ±1–2 分钟</span></li>
+            <li><span class="dot dot-blue"></span><span data-i18n="hero.meta2">全球任意位置</span></li>
+            <li><span class="dot dot-purple"></span><span data-i18n="hero.meta3">中英双语</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="globe">
+            <div class="terminator"></div>
+            <div class="terminator civil"></div>
+            <div class="terminator nautical"></div>
+            <div class="terminator astro"></div>
+            <div class="sun-marker"></div>
+            <div class="moon-marker"></div>
+            <div class="meridian"></div>
+          </div>
+          <div class="hero-cards">
+            <div class="info-card">
+              <div class="info-card-label" data-i18n="hero.card1.label">距下次日出</div>
+              <div class="info-card-value">04:21:38</div>
+              <div class="info-card-sub" data-i18n="hero.card1.sub">北京时间 · 北京</div>
+            </div>
+            <div class="info-card info-card-alt">
+              <div class="info-card-label" data-i18n="hero.card2.label">白天时长</div>
+              <div class="info-card-value">14h 26m</div>
+              <div class="info-card-sub" data-i18n="hero.card2.sub">夏至 · 北半球</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow" data-i18n="features.eyebrow">核心功能</span>
+          <h2 data-i18n="features.title">为天文爱好者与户外玩家打造</h2>
+          <p class="section-lead" data-i18n="features.lead">
+            从极地到赤道,从摄影黄金时刻到航海曙暮光,一切尽在掌握。
+          </p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature">
+            <div class="feature-icon feature-icon-orange">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" fill="currentColor" />
+                <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <line x1="12" y1="3" x2="12" y2="5" />
+                  <line x1="12" y1="19" x2="12" y2="21" />
+                  <line x1="3" y1="12" x2="5" y2="12" />
+                  <line x1="19" y1="12" x2="21" y2="12" />
+                  <line x1="5.6" y1="5.6" x2="7" y2="7" />
+                  <line x1="17" y1="17" x2="18.4" y2="18.4" />
+                  <line x1="18.4" y1="5.6" x2="17" y2="7" />
+                  <line x1="7" y1="17" x2="5.6" y2="18.4" />
+                </g>
+              </svg>
+            </div>
+            <h3 data-i18n="features.f1.title">实时太阳与月亮直射点</h3>
+            <p data-i18n="features.f1.desc">
+              地图上实时显示太阳和月亮的地理直射点,直观感受昼夜在地球上的分布。
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon feature-icon-blue">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="M3 18h18M5 14h14M7 10h10M9 6h6" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" fill="none" />
+              </svg>
+            </div>
+            <h3 data-i18n="features.f2.title">三种曙暮光线</h3>
+            <p data-i18n="features.f2.desc">
+              民用、航海、天文三种曙暮光线一图全览,精准判断拍摄与观星窗口。
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon feature-icon-purple">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="M4 19h16M6 17l4-7 4 5 4-9" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+              </svg>
+            </div>
+            <h3 data-i18n="features.f3.title">全年日出日落曲线</h3>
+            <p data-i18n="features.f3.desc">
+              按月展示日出、日落与白天时长变化趋势,提前规划全年摄影计划。
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon feature-icon-green">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"
+                  fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round" />
+                <circle cx="12" cy="9" r="2.5" fill="currentColor" />
+              </svg>
+            </div>
+            <h3 data-i18n="features.f4.title">多地点标记收藏</h3>
+            <p data-i18n="features.f4.desc">
+              自定义收藏多座城市与野外坐标,一键查看任意位置的天象数据。
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon feature-icon-pink">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+            <h3 data-i18n="features.f5.title">月相详情(Premium)</h3>
+            <p data-i18n="features.f5.desc">
+              解锁完整月相信息,包含月出月落、月亮直射点与天文事件提醒。
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-icon feature-icon-amber">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"
+                  fill="none" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </div>
+            <h3 data-i18n="features.f6.title">中英双语 · 离线可用</h3>
+            <p data-i18n="features.f6.desc">
+              完整中文与英文界面,所有数据本地计算,无网络也能查看。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="section section-alt" id="screenshots">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow" data-i18n="screenshots.eyebrow">应用截图</span>
+          <h2 data-i18n="screenshots.title">一图看懂昼夜</h2>
+          <p class="section-lead" data-i18n="screenshots.lead">
+            滑动浏览地图模式、图表模式与标记点管理。
+          </p>
+        </header>
+
+        <div class="screenshot-row">
+          <figure class="screenshot">
+            <div class="phone-frame">
+              <div class="phone-screen phone-map">
+                <div class="phone-status"></div>
+                <div class="map-area">
+                  <div class="terminator"></div>
+                  <div class="terminator civil"></div>
+                  <div class="sun-marker"></div>
+                  <div class="moon-marker"></div>
+                </div>
+                <div class="phone-card">下次日出 04:21</div>
+              </div>
+            </div>
+            <figcaption data-i18n="screenshots.caption1">世界地图 · 晨昏线</figcaption>
+          </figure>
+
+          <figure class="screenshot">
+            <div class="phone-frame">
+              <div class="phone-screen phone-chart">
+                <div class="phone-status"></div>
+                <svg class="mini-chart" viewBox="0 0 200 120" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M0 90 Q 50 60 100 50 T 200 20" fill="none"
+                    stroke="#f97316" stroke-width="2.5" />
+                  <path d="M0 30 Q 50 50 100 60 T 200 90" fill="none"
+                    stroke="#ef4444" stroke-width="2.5" />
+                  <path d="M0 60 Q 50 30 100 25 T 200 50" fill="none"
+                    stroke="#10b981" stroke-width="2.5" />
+                </svg>
+                <div class="phone-card">白天时长 14h26m</div>
+              </div>
+            </div>
+            <figcaption data-i18n="screenshots.caption2">全年日出日落曲线</figcaption>
+          </figure>
+
+          <figure class="screenshot">
+            <div class="phone-frame">
+              <div class="phone-screen phone-markers">
+                <div class="phone-status"></div>
+                <div class="marker-list">
+                  <div class="marker-item"><span class="marker-dot marker-dot-orange"></span>北京 · 04:51 / 19:42</div>
+                  <div class="marker-item"><span class="marker-dot marker-dot-blue"></span>东京 · 04:32 / 19:01</div>
+                  <div class="marker-item"><span class="marker-dot marker-dot-green"></span>悉尼 · 06:58 / 17:03</div>
+                  <div class="marker-item"><span class="marker-dot marker-dot-purple"></span>伦敦 · 05:11 / 21:08</div>
+                </div>
+                <div class="phone-card phone-card-fab">+ 添加标记</div>
+              </div>
+            </div>
+            <figcaption data-i18n="screenshots.caption3">多地点标记管理</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCURACY -->
+    <section class="section" id="accuracy">
+      <div class="container accuracy-grid">
+        <div>
+          <span class="section-eyebrow" data-i18n="accuracy.eyebrow">数据精度</span>
+          <h2 data-i18n="accuracy.title">基于标准天文学算法</h2>
+          <p data-i18n="accuracy.lead">
+            所有日出日落与曙暮光数据均依据标准天文学公式计算,并结合实时地理坐标生成。
+            典型误差范围如下:
+          </p>
+          <ul class="accuracy-list">
+            <li>
+              <span class="accuracy-tag" data-i18n="accuracy.row1.tag">日出日落</span>
+              <span class="accuracy-value">±1–2 <small data-i18n="accuracy.minute">分钟</small></span>
+            </li>
+            <li>
+              <span class="accuracy-tag" data-i18n="accuracy.row2.tag">民用曙暮光</span>
+              <span class="accuracy-value">±2–3 <small data-i18n="accuracy.minute">分钟</small></span>
+            </li>
+            <li>
+              <span class="accuracy-tag" data-i18n="accuracy.row3.tag">航海/天文曙暮光</span>
+              <span class="accuracy-value">±3–5 <small data-i18n="accuracy.minute">分钟</small></span>
+            </li>
+          </ul>
+          <p class="accuracy-note" data-i18n="accuracy.note">
+            本算法未考虑实时云层、雨雾、沙尘、空气污染等天气条件。
+            用于摄影、航海、飞行等关键用途时,请结合专业气象数据。
+          </p>
+        </div>
+
+        <div class="accuracy-card">
+          <h3 data-i18n="accuracy.cardTitle">影响最终视觉的因素</h3>
+          <ul class="factor-list">
+            <li data-i18n="accuracy.factor1">局部地形与海拔(高山、峡谷、建筑物遮挡)</li>
+            <li data-i18n="accuracy.factor2">大气折射随季节、气温、气压变化</li>
+            <li data-i18n="accuracy.factor3">极高海拔地区存在算法误差</li>
+            <li data-i18n="accuracy.factor4">云层、雨雾、沙尘暴等天气</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow" data-i18n="faq.eyebrow">常见问题</span>
+          <h2 data-i18n="faq.title">你需要知道的</h2>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n="faq.q1">SunRiseSet 是否需要联网?</summary>
+            <div class="faq-body" data-i18n="faq.a1">
+              不需要。所有天象数据均使用本地天文学算法实时计算,完全离线可用。
+              仅在使用定位功能搜索当前城市时需要联网获取地理信息。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary data-i18n="faq.q2">支持哪些平台?</summary>
+            <div class="faq-body" data-i18n="faq.a2">
+              目前已上架 iOS 与 Android 平台,在 iPhone、iPad 以及主流 Android 设备上均可使用。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary data-i18n="faq.q3">Premium 订阅包含哪些功能?</summary>
+            <div class="faq-body" data-i18n="faq.a3">
+              解锁无限地图标记点、查看完整月相详情、月出月落时间,以及无广告体验。
+              订阅周期包括月卡、年卡与终身买断,价格透明、无隐藏费用。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary data-i18n="faq.q4">如何恢复已购买的订阅?</summary>
+            <div class="faq-body" data-i18n="faq.a4">
+              在 App 的「我的」页面点击「恢复购买」即可。iOS 通过 App Store 账号恢复,
+              Android 通过 Google Play 账号恢复。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary data-i18n="faq.q5">如何删除账户数据?</summary>
+            <div class="faq-body" data-i18n="faq.a5">
+              前往「我的 → 设置 → 清除数据」即可一键清除本地全部标记点与偏好设置,
+              或直接卸载 App 即可彻底移除所有本地数据。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary data-i18n="faq.q6">发现 Bug 或希望增加功能?</summary>
+            <div class="faq-body" data-i18n="faq.a6">
+              非常欢迎!请通过页面下方的邮箱联系我们,或直接发送邮件至
+              <a href="mailto:support@sunriseset.app">support@sunriseset.app</a>。
+              你的反馈会直接进入下一版本的开发任务。
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / DOWNLOAD -->
+    <section class="section section-cta" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="section-eyebrow" data-i18n="contact.eyebrow">联系我们</span>
+          <h2 data-i18n="contact.title">问题、建议、合作</h2>
+          <p data-i18n="contact.lead">
+            我们重视每一位用户的反馈。无论是 Bug 报告、功能建议,还是天文摄影作品分享,
+            都欢迎随时联系。
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label" data-i18n="contact.emailLabel">技术支持</span>
+              <a class="contact-value" href="mailto:support@sunriseset.app">support@sunriseset.app</a>
+            </li>
+            <li>
+              <span class="contact-label" data-i18n="contact.privacyLabel">隐私相关</span>
+              <a class="contact-value" href="mailto:privacy@sunriseset.app">privacy@sunriseset.app</a>
+            </li>
+            <li>
+              <span class="contact-label" data-i18n="contact.businessLabel">商务合作</span>
+              <a class="contact-value" href="mailto:business@sunriseset.app">business@sunriseset.app</a>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="contact-card">
+          <h3 data-i18n="contact.cardTitle">下载 SunRiseSet</h3>
+          <p data-i18n="contact.cardDesc">免费使用基础功能,随时升级解锁全部特性。</p>
+          <div class="store-row">
+            <a class="store-btn" href="#" aria-label="App Store">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path fill="currentColor" d="M16.4 12.7c0-2.3 1.9-3.5 2-3.5-1.1-1.6-2.7-1.8-3.3-1.8-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-3-.8-1.5 0-2.9.9-3.7 2.3-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7 1.4 0 1.8.7 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.2-2.5 1.3-2.6-.1 0-2.7-1-2.7-3.5zM14.5 5.8c.6-.7 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.6 2.7-1.4z" />
+              </svg>
+              <span>
+                <small data-i18n="contact.appstoreSmall">下载于</small><br />
+                <strong>App Store</strong>
+              </span>
+            </a>
+            <a class="store-btn" href="#" aria-label="Google Play">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                <path fill="currentColor" d="M3.6 2.3c-.4.4-.6.9-.6 1.5v16.4c0 .6.2 1.1.6 1.5l.1.1L13 12 3.7 2.2l-.1.1zM17 15.3l-3.1-3.1L17 9.1l3.6 2.1c1 .6 1 1.5 0 2.1l-3.6 2zM4.6 22.5c.4.4 1 .4 1.7 0l11.5-6.5-3.1-3.1-10.1 9.6zm0-21c-.7-.4-1.3-.4-1.7 0l10.1 9.6 3.1-3.1L4.6 1.5z" />
+              </svg>
+              <span>
+                <small data-i18n="contact.playSmall">立即下载</small><br />
+                <strong>Google Play</strong>
+              </span>
+            </a>
+          </div>
+          <p class="contact-meta">
+            <span data-i18n="contact.version">当前版本</span>: <strong>v1.0.1</strong><br />
+            <span data-i18n="contact.platforms">支持平台</span>: iOS 15.1+ · Android 8.0+
+          </p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>SunRiseSet</strong>
+        <p data-i18n="footer.tagline">日出日落 · 你的天象伴侣</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.productTitle">产品</h4>
+        <ul>
+          <li><a href="#features" data-i18n="nav.features">功能特性</a></li>
+          <li><a href="#screenshots" data-i18n="nav.screenshots">应用截图</a></li>
+          <li><a href="#download" data-i18n="nav.download">下载 App</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.supportTitle">支持</h4>
+        <ul>
+          <li><a href="#faq" data-i18n="nav.faq">常见问题</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
+          <li><a href="mailto:support@sunriseset.app">support@sunriseset.app</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legalTitle">法律</h4>
+        <ul>
+          <li><a href="privacy.html" data-i18n="footer.privacy">隐私政策</a></li>
+          <li><a href="terms.html" data-i18n="footer.terms">服务条款</a></li>
+          <li><a href="sitemap.xml" data-i18n="footer.sitemap">站点地图</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span data-i18n="footer.copyright">© 2026 SunRiseSet. 基于标准天文学算法,数据仅供参考。</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
