@@ -1062,41 +1062,18 @@ p {
 .contact-card p {
   font-size: 0.95rem;
 }
-.store-row {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 16px 0 18px;
-}
-.store-btn {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 18px;
-  background: #000;
-  color: #fff;
-  border-radius: var(--radius-md);
-  font-weight: 500;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-.store-btn:hover {
-  color: #fff;
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
-}
-.store-btn small {
-  font-size: 0.7rem;
-  opacity: 0.75;
-  display: block;
-}
-.store-btn strong {
-  font-size: 1.05rem;
-  font-weight: 700;
-}
 .contact-meta {
   font-size: 0.82rem;
   color: var(--text-muted);
   margin: 0;
+}
+
+/* Single-column contact layout (when download card is removed) */
+.contact-grid-single {
+  grid-template-columns: 1fr !important;
+}
+.contact-grid-single > div {
+  max-width: 720px;
 }
 
 /* --- Footer --- */

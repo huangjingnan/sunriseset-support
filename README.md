@@ -63,7 +63,7 @@ npx http-server -p 8080
 
 - 修改品牌色:编辑 `assets/css/style.css` 中 `:root` 下的 `--color-sun-*`、`--accent` 等变量。
 - 修改文案:编辑 `assets/js/i18n.js` 与 `assets/js/i18n-legal.js` 中的 `zh` / `en` 对象。
-- 接入真实下载链接:将 `index.html` 中 `<a class="store-btn">` 的 `href="#"` 替换为 App Store / Google Play 的真实 URL。
+- 修改联系方式:将 `index.html` / `privacy.html` / `terms.html` 中所有 `350560713@qq.com` 替换为你的邮箱。
 
 ## License
 

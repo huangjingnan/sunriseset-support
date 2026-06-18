@@ -24,7 +24,7 @@
       "privacy.s2.l4":
         "<strong>崩溃与诊断</strong>(可选):如果你在系统中开启了崩溃报告,我们可能收到去标识化的崩溃日志用于问题定位。",
       "privacy.s3.title": "我们如何使用信息",
-      "privacy.s3.l1": "用于在你所在位置实时计算并展示日出日落、月相、曙暮光数据。",
+      "privacy.s3.l1": "用于在你所在位置实时计算并展示日出日落、曙暮光数据。",
       "privacy.s3.l2": "用于保存和管理你的标记点、收藏城市。",
       "privacy.s3.l3": "用于在你订阅或恢复订阅时验证身份与权限。",
       "privacy.s3.l4": "用于诊断与改进产品质量(基于去标识化或聚合数据)。",
@@ -39,7 +39,7 @@
       "privacy.s6.l2": "随时撤回位置权限授权(系统设置 → 应用权限)。",
       "privacy.s6.l3": "请求我们删除我们持有的、与你相关的任何数据。",
       "privacy.s6.l4":
-        "通过 <a href=\"mailto:privacy@sunriseset.app\">privacy@sunriseset.app</a> 行使上述权利,我们将在 30 天内回复。",
+        "通过 <a href=\"mailto:350560713@qq.com\">350560713@qq.com</a> 行使上述权利,我们将在 30 天内回复。",
       "privacy.s7.title": "儿童隐私",
       "privacy.s7.body":
         "本应用不面向 13 岁以下儿童。我们不会有意收集 13 岁以下儿童的个人信息。如发现相关情况,请联系我们,我们将立即删除相关信息。",
@@ -56,7 +56,7 @@
         "下载、安装或使用 SunRiseSet(以下简称「本应用」)即表示你已阅读、理解并同意本服务条款的全部内容。如你不接受任何条款,请立即停止使用并卸载本应用。",
       "terms.s2.title": "服务说明",
       "terms.s2.body":
-        "本应用基于标准天文学算法为用户提供日出、日落、月相、曙暮光等天象信息查询服务。所有计算结果仅供参考,不构成任何专业建议(包括但不限于天文摄影、航海、飞行、医疗、宗教仪式等)。对于因依赖本应用数据而产生的任何直接或间接损失,开发者不承担责任。",
+        "本应用基于标准天文学算法为用户提供日出、日落、曙暮光等天象信息查询服务。所有计算结果仅供参考,不构成任何专业建议(包括但不限于天文摄影、航海、飞行、医疗、宗教仪式等)。对于因依赖本应用数据而产生的任何直接或间接损失,开发者不承担责任。",
       "terms.s3.title": "订阅与付费",
       "terms.s3.l1":
         "本应用提供免费基础功能与可选的 Premium 订阅。月卡、年卡或终身买断的具体价格以应用内展示为准。",
@@ -136,7 +136,7 @@
         "Withdraw location permission at any time via System Settings → App Permissions.",
       "privacy.s6.l3": "Request deletion of any data we hold about you.",
       "privacy.s6.l4":
-        "Exercise any of the above by emailing <a href=\"mailto:privacy@sunriseset.app\">privacy@sunriseset.app</a>. We respond within 30 days.",
+        "Exercise any of the above by emailing <a href=\"mailto:350560713@qq.com\">350560713@qq.com</a>. We respond within 30 days.",
       "privacy.s7.title": "Children's Privacy",
       "privacy.s7.body":
         "The App is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe we have, please contact us and we will promptly delete it.",
