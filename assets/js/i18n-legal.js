@@ -12,7 +12,7 @@
       "privacy.title": "隐私政策",
       "privacy.s1.title": "概述",
       "privacy.s1.body":
-        "SunRiseSet(以下简称「本应用」)由独立开发者维护。我们非常重视你的隐私,本政策说明本应用在何种范围内收集、使用和存储信息,以及你可以如何行使相关权利。本应用坚持「数据最小化」原则,所有天象数据均在本地计算,无需联网即可使用。",
+        "SunRiseSet(以下简称「本应用」)非常重视你的隐私,本政策说明本应用在何种范围内收集、使用和存储信息,以及你可以如何行使相关权利。本应用坚持「数据最小化」原则,所有天象数据均在本地计算,无需联网即可使用。",
       "privacy.s2.title": "我们收集的信息",
       "privacy.s2.intro": "根据你使用的功能,我们可能收集以下信息:",
       "privacy.s2.l1":
@@ -42,7 +42,7 @@
         "通过 <a href=\"mailto:350560713@qq.com\">350560713@qq.com</a> 行使上述权利,我们将在 30 天内回复。",
       "privacy.s7.title": "儿童隐私",
       "privacy.s7.body":
-        "本应用不面向 13 岁以下儿童。我们不会有意收集 13 岁以下儿童的个人信息。如发现相关情况,请联系我们,我们将立即删除相关信息。",
+        "我们不会有意收集 13 岁以下儿童的个人信息。如发现相关情况,请联系我们,我们将立即删除相关信息。",
       "privacy.s8.title": "政策变更",
       "privacy.s8.body":
         "我们可能根据产品发展或法规变化更新本政策。重大变更将通过应用内通知或本页顶部日期体现。继续使用本应用即视为你接受更新后的政策。",
@@ -103,7 +103,7 @@
       "privacy.title": "Privacy Policy",
       "privacy.s1.title": "Overview",
       "privacy.s1.body":
-        "SunRiseSet (the 'App') is maintained by an independent developer. We respect your privacy. This policy explains what data we collect, how we use it and how you can exercise your rights. The App follows the principle of data minimization — all astronomical data is computed locally, and the App works fully offline.",
+        "SunRiseSet (the 'App') respects your privacy. This policy explains what data we collect, how we use it and how you can exercise your rights. The App follows the principle of data minimization — all astronomical data is computed locally, and the App works fully offline.",
       "privacy.s2.title": "Information We Collect",
       "privacy.s2.intro":
         "Depending on the features you use, we may collect:",
@@ -139,7 +139,7 @@
         "Exercise any of the above by emailing <a href=\"mailto:350560713@qq.com\">350560713@qq.com</a>. We respond within 30 days.",
       "privacy.s7.title": "Children's Privacy",
       "privacy.s7.body":
-        "The App is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe we have, please contact us and we will promptly delete it.",
+        "We do not knowingly collect personal information from children under 13. If you believe we have, please contact us and we will promptly delete it.",
       "privacy.s8.title": "Changes to This Policy",
       "privacy.s8.body":
         "We may update this policy as the product or regulations evolve. Material changes will be reflected by an in-app notice or by updating the date at the top of this page. Continued use of the App indicates acceptance of the updated policy.",
